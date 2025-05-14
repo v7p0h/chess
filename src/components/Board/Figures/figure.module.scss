@@ -1,0 +1,25 @@
+.figure {
+  opacity: 1;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: move;
+  position: relative;
+  z-index: 20;
+
+  &.isDragging {
+    opacity: 0.5;
+  }
+
+  &.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+  }
+
+  &.image {
+    width: 100%;
+    height: 100%;
+  }
+}

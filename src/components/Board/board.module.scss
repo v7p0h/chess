@@ -1,0 +1,17 @@
+.page {
+    display: flex;
+}
+
+
+.info {
+
+}
+
+.board {
+    margin: 20px;
+    border: 1px solid black;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
